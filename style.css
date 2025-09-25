@@ -143,6 +143,7 @@ body.nether-mode button {
   border-color: #990000;
   color: #ffcccc;
 }
+
 body.nether-mode #hero {
   background: #1a0000; 
   color: #ffcccc;     
@@ -156,4 +157,5 @@ body.nether-mode footer {
   background-color: #330000;
   color: #ff9999;
 }
+
 
