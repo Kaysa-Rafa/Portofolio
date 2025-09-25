@@ -1,6 +1,6 @@
 body {
   font-family: 'Press Start 2P', cursive;
-  background: url('https://i.imgur.com/3ZQ3ZQZ.png') repeat;
+  background: white;
   color: #fff;
   margin: 0;
   padding-top: 120px;
@@ -46,7 +46,7 @@ nav a {
 
 #hero {
   height: 100vh;
-  background: url('https://i.imgur.com/4M7IWwP.png') center/cover no-repeat;
+  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,4 +153,5 @@ body.nether-mode footer {
   color: #ff9999;
 
 }
+
 
