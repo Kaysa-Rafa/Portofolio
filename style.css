@@ -1,9 +1,10 @@
 body {
   font-family: 'Press Start 2P', cursive;
-  background: white;
-  color: #fff;
+  background: #ffffff;   
+  color: #000000;       
   margin: 0;
   padding-top: 120px;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 header {
@@ -14,8 +15,9 @@ header {
   background-color: #2e7d32;
   padding: 20px;
   text-align: center;
-  border-bottom: 5px solid #1b5e20;
+  border-bottom: 5px solid #1b5e20; 
   z-index: 1000;
+  transition: all 0.3s ease;
 }
 
 nav ul {
@@ -28,46 +30,38 @@ nav ul {
 }
 
 nav a {
-  color: #fff;
+  color: #ffffff; 
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 #darkModeToggle {
   position: absolute;
   right: 20px;
   top: 20px;
-  background: #1b5e20;
-  color: #fff;
-  border: 2px solid #fff;
+  background: #1b5e20; 
+  color: #ffffff;     
+  border: 2px solid #ffffff;
   padding: 5px 10px;
   cursor: pointer;
   font-family: inherit;
+  transition: all 0.3s ease;
 }
 
 #hero {
   height: 100vh;
-  background: white;
+  background: #ffffff; 
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  transition: all 0.3s ease;
 }
 
 .hero-content {
   background: rgba(0,0,0,0.6);
   padding: 30px;
   border-radius: 10px;
-}
-
-body,
-header,
-nav a,
-#darkModeToggle,
-.btn,
-.project-block,
-section,
-footer,
-button {
   transition: all 0.3s ease;
 }
 
@@ -75,10 +69,11 @@ button {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background: #4caf50;
-  color: #fff;
+  background: #4caf50; 
+  color: #ffffff;     
   text-decoration: none;
-  border: 3px solid #1b5e20;
+  border: 3px solid #1b5e20; 
+  transition: all 0.3s ease;
 }
 
 section {
@@ -86,6 +81,7 @@ section {
   background-color: rgba(0, 0, 0, 0.7);
   margin: 20px;
   border-radius: 10px;
+  transition: all 0.3s ease;
 }
 
 .project-grid {
@@ -95,12 +91,13 @@ section {
 }
 
 .project-block {
-  background-color: #4caf50;
+  background-color: #4caf50; 
   padding: 20px;
-  border: 3px solid #1b5e20;
+  border: 3px solid #1b5e20; 
   border-radius: 8px;
   flex: 1;
   text-align: center;
+  transition: all 0.3s ease;
 }
 
 form input, form textarea {
@@ -112,27 +109,30 @@ form input, form textarea {
 }
 
 button {
-  background-color: #388e3c;
-  color: white;
+  background-color: #388e3c; 
+  color: #ffffff;          
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #1b5e20;
+  background-color: #1b5e20; 
+  color: #ffffff;            
+  transition: all 0.3s ease;
 }
 
 /* Nether Mode */
 body.nether-mode {
-  background: #4B2E2E;
-  color: #ffcccc;
+  background: #1a0000; 
+  color: #ffcccc;      
 }
 
 body.nether-mode header {
-  background-color: #4a0000;
+  background-color: #4a0000; 
   border-bottom: 5px solid #660000;
 }
 
@@ -151,8 +151,4 @@ body.nether-mode section {
 body.nether-mode footer {
   background-color: #330000;
   color: #ff9999;
-
 }
-
-
-
