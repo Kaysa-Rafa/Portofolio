@@ -4,7 +4,7 @@ $(document).ready(function () {
     e.preventDefault();
     const target = $(this).attr('href');
     $('html, body').animate({
-      scrollTop: $(target).offset().top - 100
+      scrollTop: $(target).offset().top - 80
     }, 800);
   });
 
@@ -22,7 +22,7 @@ $(document).ready(function () {
     };
 
     emailjs.send("service_1vf267r", "template_30rlvug", templateParams)
-      .then(function (response) {
+      .then(function () {
         $('#responseMessage').text('✅ Pesan berhasil dikirim! Terima kasih, ' + templateParams.from_name + ' 🙌');
         $('#contactForm').trigger('reset');
       }, function (error) {
