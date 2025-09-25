@@ -1,0 +1,154 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  background: url('https://i.imgur.com/3ZQ3ZQZ.png') repeat;
+  color: #fff;
+  margin: 0;
+  padding-top: 120px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2e7d32;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #1b5e20;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#darkModeToggle {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: #1b5e20;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+#hero {
+  height: 100vh;
+  background: url('https://i.imgur.com/4M7IWwP.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  background: rgba(0,0,0,0.6);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+body,
+header,
+nav a,
+#darkModeToggle,
+.btn,
+.project-block,
+section,
+footer,
+button {
+  transition: all 0.3s ease;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border: 3px solid #1b5e20;
+}
+
+section {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.project-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-block {
+  background-color: #4caf50;
+  padding: 20px;
+  border: 3px solid #1b5e20;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-family: inherit;
+}
+
+button {
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1b5e20;
+}
+
+/* Nether Mode */
+body.nether-mode {
+  background: #1a0000 url('https://i.imgur.com/3ZQ3ZQZ.png') repeat;
+  color: #ffcccc;
+}
+
+body.nether-mode header {
+  background-color: #4a0000;
+  border-bottom: 5px solid #660000;
+}
+
+body.nether-mode .btn,
+body.nether-mode .project-block,
+body.nether-mode button {
+  background-color: #660000;
+  border-color: #990000;
+  color: #ffcccc;
+}
+
+body.nether-mode section {
+  background-color: rgba(50, 0, 0, 0.8);
+}
+
+body.nether-mode footer {
+  background-color: #330000;
+  color: #ff9999;
+}
