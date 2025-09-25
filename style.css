@@ -46,7 +46,7 @@ nav a {
 
 #hero {
   height: 100vh;
-  background: url('https://i.imgur.com/4M7IWwP.png') center/cover no-repeat;
+  background: url('https://i.imgur.com/8Km9tLL.png') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,4 +151,5 @@ body.nether-mode section {
 body.nether-mode footer {
   background-color: #330000;
   color: #ff9999;
+
 }
